@@ -7,11 +7,55 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Contact</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar navbar-expand navbar-light bg-light ml-3">
+      
+      <div class="container-fluid">
+        <div class="row" style="width: 100%;">
+          <div class="col-12 col-sm-auto text-center" style="background-color: #33CEC4;">
+            <a class="navbar-brand nav-header " href="#">Kittou the cat</a>
+          </div>
+          <ul class="navbar-nav ml-auto mr-auto mr-sm-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class ="nav-item active">
+            <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+         </div>  
+    </div> 
+    </nav>
+    <div class="card" style="max-width: 45rem; margin: 15px 16px;">
+      <div class="card-body">
+        <h5 class="card-title">Contact</h5>
+        <hr/>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="John Smith">
+          </div>
+          <div class="form-group">
+            <label for="Email1">Email</label>
+            <input type="email" class="form-control" id="Email1" placeholder="email@gmail.com">
+            
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="Message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

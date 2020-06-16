@@ -13,7 +13,32 @@ The goal of responsive design is to avoid the unnecessary resizing, scrolling, z
 
 ![](img/responsiveDesign.gif)
 
+## Viewport
+Pages optimized for a variety of devices must include a meta viewport tag in the head of the document. A meta viewport tag gives the browser instructions on how to control the page's dimensions and scaling.
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  ...
+```
 
+## Bootstrap Grid System
+Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align content. It’s built with flexbox and is fully responsive. Below is an example and an in-depth look at how the grid comes together.
+```html
+<div class="container"> 
+    <div class="row">
+    <div class="col-12 col-sm-6 my-3">
+        <div class="image-wrapper">
+        <img src="..." alt="cat" width="100%"/>
+        <div class="text-block text-center py-2">
+          <h4>...</h4>
+        </div>
+        </div>            
+    </div>
+```
 ## Previewing locally
 This is a static website that can be viewed locally - just open the `index.html` file located in the main folder using any browser.
 

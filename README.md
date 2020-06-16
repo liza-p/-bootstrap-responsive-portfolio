@@ -11,6 +11,7 @@ Responsive design is a way to put together a website so that it automatically sc
 
 The goal of responsive design is to avoid the unnecessary resizing, scrolling, zooming, or panning that occurs with sites that have not been optimized for different devices.
 
+![](img/responsiveDesign.gif)
 
 
 ## Previewing locally

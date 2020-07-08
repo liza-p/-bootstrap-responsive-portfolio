@@ -1,8 +1,9 @@
 # bootstrap-responsive-portfolio
 
 ## Link
-- URL to the deployed application https://liza-p.github.io/bootstrap-responsive-portfolio/
+- URL to the deployed application 
 
+[Portfolio](https://liza-p.github.io/responsive-portfolio/.)
 ## About
 This website was built using Bootstrap CSS framework implementing responsive web design techniques.
 

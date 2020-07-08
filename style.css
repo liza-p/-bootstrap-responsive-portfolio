@@ -32,4 +32,32 @@ body {
   }
   .image-wrapper {
       position: relative;
+      
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+  }
+  .fa-github {
+    background:black;
+    color: white;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
   }
